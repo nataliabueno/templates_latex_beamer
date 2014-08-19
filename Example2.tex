@@ -1,0 +1,118 @@
+\documentclass{beamer}
+
+\usepackage{beamerthemesplit}
+
+ \usepackage{amsfonts}
+\usepackage{amsmath}  
+ \usepackage{setspace}
+ \usepackage{txfonts}
+
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{scalefnt}
+
+
+%\graphicspath{{/Dropbox/}}%some people like setting paths for figures 
+
+\setbeamertemplate{itemize items}[ball] % if you want a ball
+\setbeamertemplate{itemize subitem}[triangle] % if you want a circle
+
+\title[PLSC 504: Advanced Quantitative Methods\hspace{2em}\insertframenumber/
+\inserttotalframenumber] {Example of Beamer presentation}
+
+\author[Nat\'{a}lia Bueno]{Nat\'{a}lia Bueno\\~\\Department of Political Science\\Yale University}
+\date{September 12, 2013\\~\\Prepared for presentation section}
+
+%%%%%%%%%%The body of the Beamer is exactly the same as in example 1. 
+%%%%%%%%%% I only changed the template (packages, theme) and customized it. 
+
+\begin{document} % begin your document
+
+\frame{\titlepage} %for your first slide, have your title page
+
+\section{Objectives}
+
+\subsection{} %You need this because of the "navigation bar" (counting circles on top)
+\frame %Here is how you start each slide
+{ %beginning the slides
+\frametitle{Objectives} %title for a slide, not for section
+%%%%%%%%%%%%%%%%%%%%%% Write like you would in a Latex document
+\begin{itemize}
+\item Welcome!
+\item Logistics.
+\item What to expect from PLSC 504.
+\item R training.
+\end{itemize}
+} %End the slide
+
+\section{Logistics \& Expectations}
+
+\subsection[Logistics 1]{}
+\subsubsection{Logistics 1}
+\frame
+{
+\frametitle[Logistics 1]{Logistics}
+\begin{itemize}
+\pause \item The basics: %Pauses are a good thing in presentation. You can pause before items, %you can pause a word in the middle of a sentence. 
+\begin{itemize}
+\item Contact: e-mail and class forum on classes*V2.
+\item \href{https://www.dropbox.com/sh/8gos1knztfhdgty/IzxBeqKvUW}{Dropbox folder} with materials (lecture and section slides, homework, solutions, readings, and R and \LaTeX{} materials).
+\item classesV2 for grades and uploading assignments.
+\end{itemize}
+\pause \item Office hours. M: 4:00-5:00 and T: 3:00-4:00, place RZK 220.   
+\end{itemize}
+}
+
+
+\subsection[Logistics 2]{}
+\subsubsection{Logistics 2}
+\frame
+{
+\frametitle[Logistics 2]{Sections}
+\begin{itemize}
+\item Section time. Probably on Wednesdays, place TBD.
+\item Q \& A, lecture review, and new content.
+\item I encourage you to e-mail me questions before section so you can get better answers. 
+\item Evaluation/Attendance.
+\end{itemize}
+}
+
+\subsection[Logistics 3]{}
+\subsubsection{Logistics 3}
+\frame{
+\frametitle[Logistics 3]{Homework \& Final Exam}
+\begin{itemize}
+\pause \item Homework.
+\begin{itemize}
+\item Graded on effort (your chance to make mistakes)
+\item Individual assignment, but you can work in groups (ideally after your own attempts at solving it).
+\item If you have trouble finding a study group, please let me know.
+\end{itemize}
+\pause \item Final exam.
+\begin{itemize}
+\item Good pratice for the qualifying exam.
+\end{itemize}
+\end{itemize}
+}
+
+\subsection[Final assignment]{}
+\subsubsection{Final assignment}
+\frame{
+  \frametitle[Final assignment]{Replication Paper}
+  \begin{itemize}
+  \pause \item Learn by doing (and by mimicking).
+  \pause \item Jobs and replication papers.
+  \pause \item Get data and replication files quickly.
+\begin{itemize} 
+\item 18 of 120 political science journals have replication policies
+\item Only 16\% of surveyed individuals (students + PolMeth) were able to get complete dataset and replication files. 21\% got a limited dataset and a complete code. The plurarity (24\%) got a limited dataset but no code.
+\item Replication tips: \href{http://politicalsciencereplication.wordpress.com/}{Replication blog}
+\end{itemize}
+  \pause \item Deadlines to keep you on track.
+  \pause \item Work in small groups (2-3 people): again, let me know if you have trouble finding partners.
+  \end{itemize}
+}
+
+%End your document
+\end{document}
